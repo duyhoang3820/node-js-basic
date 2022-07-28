@@ -11,6 +11,9 @@ const initWebRoute = (app) => {
   router.get('/edit/:id', homeController.getEditPage);
   router.post('/update', homeController.updateUser);
 
+  router.get('/upload', homeController.getUploadFilePage);
+  router.post('/upload-profile-pic', homeController.handleUploadFile);
+
   router.get('/about', (req, res) => {
     res.send(`I'm Duy`);
   });

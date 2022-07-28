@@ -48,3 +48,7 @@ label{
   margin-top: 15px;
   cursor: pointer;
 }
+.upload-file-container{
+  display: block;
+  padding: 15px;
+}
